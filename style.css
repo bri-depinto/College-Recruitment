@@ -1,3 +1,9 @@
+
+body{
+  background-color: #cc0033;
+}
+
+
 .date{
     font-family: 'Englebert', cursive;
     text-align: center;
@@ -21,13 +27,35 @@
   .blurbb{
     background-color: white;
     border-radius: 5%;
-    box-shadow: 0 4px 8px 0 #fa5796, 0 6px 20px 0 #fa5796;
+    box-shadow: 0 4px 8px 0 #c4bcbc, 0 6px 20px 0 #a7a2a2;
   }
   .datee{
-    border: solid #fa5796 3px;
+    border: solid #000000 3px;
     margin-top: -2%;
     opacity: 100%;
     width: 250px;
   margin-left: auto;
   margin-right: auto;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+    font-style: normal;
+  }
+  .navv{
+    background-color: black;
+    color: white;
+
+  }
+  .navbar-brand{
+    color:white;
+    transition: 0.5s;
+  }
+  .navbar-brand:hover{
+    color:#c4bcbc;
+    transition: 0.5s;
+  }
+  .date{
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
   }
