@@ -1,6 +1,6 @@
 
 body{
-  background-color: #cc0033;
+  background-color: white;
 }
 
 
@@ -10,27 +10,31 @@ body{
     font-size: 5em;
     padding-top: 10%;
   }
+  .header-pic {
+    padding: 6%;
+  }
   .pic{
-  padding: 6%;
   display: flex;
   align-items: center;
-   
+  border: double 5px black;
   }
   .blurb{
-    font-family: 'Zen Maru Gothic', serif;
+    font-family: "Rasa", serif;
     font-size: 1.3em;
     text-align: center;
     padding: 3%;
-    margin-top: 3%;
+  margin: 3%;
     max-height:475px;
+    color: white;
   }
   .blurbb{
-    background-color: white;
-    border-radius: 5%;
-    box-shadow: 0 4px 8px 0 #c4bcbc, 0 6px 20px 0 #a7a2a2;
+    background-color:#cc0033 ;
+    border-radius: 20%;
+    box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #797979;
+    margin-top: 3%;
   }
   .datee{
-    border: solid #000000 3px;
+    border: solid #cc0033 3px;
     margin-top: -2%;
     opacity: 100%;
     width: 250px;
@@ -50,7 +54,7 @@ body{
     transition: 0.5s;
   }
   .navbar-brand:hover{
-    color:#c4bcbc;
+    color:#9b9595;
     transition: 0.5s;
   }
   .date{
@@ -59,3 +63,11 @@ body{
     font-style: normal;
     color: black;
   }
+.linee{
+  border: solid #9b9595 2px;
+opacity: 100%;
+}
+.learning{
+  font-family: "Old Standard TT", serif;
+ font-weight: 700;
+}
