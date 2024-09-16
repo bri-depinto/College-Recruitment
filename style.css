@@ -95,7 +95,7 @@ opacity: 100%;
 }
 .alu {
   height:300px;
-  background: url(imgs/aca.png);
+  background: url(imgs/alumni.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center, center;
@@ -108,13 +108,14 @@ opacity: 100%;
 
 
 .title-heading {
-  font-family: "Old Standard TT", serif;
-  font-weight: 700;
-  color:rgb(0, 0, 0);
-  font-size: clamp(4rem, 7vw, 400px);
+  font-family: "Rasa", serif;
+  font-weight: 900;
+  opacity: 89%;
+  color:#ffffff;
+  font-size: clamp(4rem, 5vw, 400px);
   text-decoration-line: underline;
   text-decoration-skip-ink: none;
-  text-decoration-color: #ff0000;
+  text-decoration-color: #cc0033;
   text-decoration-thickness:3px;
 
 }
