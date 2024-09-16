@@ -73,12 +73,33 @@ opacity: 100%;
 }
 .aca {
   height:300px;
-  background: url(imgs/aca.webp);
+  background: url(imgs/aca.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center, center;
 }
 
+.stud {
+  height:300px;
+  background: url(imgs/stud.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+}
+.fin {
+  height:300px;
+  background: url(imgs/fin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+}
+.alu {
+  height:300px;
+  background: url(imgs/aca.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+}
 
 .white {
   height:300px;
@@ -95,6 +116,7 @@ opacity: 100%;
   text-decoration-skip-ink: none;
   text-decoration-color: #ff0000;
   text-decoration-thickness:3px;
+
 }
 .description {
   color: #ffffff;
