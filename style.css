@@ -71,3 +71,43 @@ opacity: 100%;
   font-family: "Old Standard TT", serif;
  font-weight: 700;
 }
+.aca {
+  height:300px;
+  background: url(imgs/aca.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+}
+
+
+.white {
+  height:300px;
+  background: #cc0033;
+}
+
+
+.title-heading {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  color:rgb(0, 0, 0);
+  font-size: clamp(4rem, 7vw, 400px);
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  text-decoration-color: #ff0000;
+  text-decoration-thickness:3px;
+}
+.description {
+  color: #ffffff;
+  font-family: "Rasa", serif;
+  font-size: clamp(1rem, 1.2vw, 400px);
+}
+
+.roww {
+  box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #797979;
+}
+.row:target {
+  box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #797979;
+  border-color: #503b3b;
+  animation: ease-in-out;
+  opacity: 4;
+}
