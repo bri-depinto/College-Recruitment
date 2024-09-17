@@ -26,6 +26,9 @@
 
   <link rel="stylesheet" href="style.css">
 
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 
@@ -33,15 +36,48 @@
 
 <body>
   <!-- start of nav -->
-  <nav class="navbar navv">
+  <nav class="navbar navbar-expand-lg navv">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/Rutgers_Scarlet_Knights_logo.svg.png" alt="Rutgers" width="30" height="24">
+      </a>
+      <a class="navbar-brand" href="#">Rutgers University - New Bruisnwick</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- <nav class="navbar navv">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="imgs/Rutgers_Scarlet_Knights_logo.svg.png" alt="Logo" width="30" height="26"
-          class="d-inline-block align-text-top">
+          class="d-inline-block align-text-top ">
         Rutgers University–New Brunswick
       </a>
+      <a class="nav-link" href="#">Academics</a>
     </div>
-  </nav>
+  </nav> -->
   <!-- end of nav -->
   <!-- top part start -->
   <div class="container">
@@ -136,9 +172,22 @@
           <a href="https://scarlethub.rutgers.edu/financial-services/office-of-financial-aid/" target="_blank" class="title-heading">Financial Aid</a></h5>
         </div>
         <div class="col-12 col-md-6 white d-flex align-items-center">
-          <p class="description p-3">Little Bird Toys, established in 2018, brings families handcrafted wooden toys
-            designed to spark imagination and slow down playtime. Our heirloom-quality collection is built from
-            sustainable materials and made to last a lifetime, fostering connections between generations.</p>
+          <p class="description p-3">
+            <ul class="description">
+              <li>
+                Provides the highest quality service to undergraduate, graduate, and professional students in pursuit of their academic goals
+              </li>
+              <li>
+              Nearly 80% of Rutgers students receive some form of financial aid
+              </li>
+              <li>
+               Rutgers averages around $12,766 a year in financial aid
+              </li>
+              <li>
+                Offers financial aid through a variety of sources, including federal, state, private, and institutional support
+              </li>
+            </ul>
+            </p>
         </div>
       </div>
 
@@ -148,9 +197,25 @@
         <a href="https://careers.rutgers.edu/students-and-alumni" target="_blank" class="title-heading">Alumni Success</a></h5>
       </div>
       <div class="col-12 col-md-6 white d-flex align-items-center">
-        <p class="description p-3">Little Bird Toys, established in 2018, brings families handcrafted wooden toys
-          designed to spark imagination and slow down playtime. Our heirloom-quality collection is built from
-          sustainable materials and made to last a lifetime, fostering connections between generations.</p>
+        <p class="description p-3">
+          <ul class="description">
+            <li>
+            89% of students graduate with experience (leadership)
+            </li>
+            <li>
+            80% annual student engagment with CES (online tools)
+            </li>
+            <li>
+             41,689 students with handshake accounts (career management platform)
+            </li>
+            <li>
+             Median starting salary of graduates are $70,000 a year
+            </li>
+            <li>
+              James Gandolfini is a famous alumni who starred in the most popular televison drama series of all time, <i> The Sopranos</i>
+            </li>
+          </ul>
+        </p>
       </div>
     </div>
   </div>
@@ -166,10 +231,41 @@
 
 
 
-  <main></main>
-  <footer>
-    <!-- place footer here -->
+  
+  <!-- start of footer -->
+  <footer class="py-2">
+    <div class="ft-words text-center">
+      <p><span class="sign">&copy</span> <span class="footerwords"><b>Rutgers University</b></span></p>
+      <p class="fwords"> Rutgers, The State University of New Jersey <br>
+        57 US Highway 1 New Brunswick, NJ <br>
+        08901-8554 <br>
+        (848) 445-4636</p>
+    </div>
+
+    <div class="wrapped">
+      <div class="wrap">
+        <div class="icon facebook">
+          <div class="tooltipp">@LittleBirdToyCo</div>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </div>
+        <div class="icon twitter">
+          <div class="tooltipp">@LittleBirdToys</div>
+          <span><i class="fab fa-twitter"></i></span>
+        </div>
+        <div class="icon instagram">
+          <div class="tooltipp">@LittleBirdToyCo</div>
+          <span><i class="fab fa-instagram"></i></span>
+        </div>
+
+      </div>
+    </div>
   </footer>
+  <!-- end of footer -->
+
+
+
+
+
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
