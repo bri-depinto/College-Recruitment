@@ -46,11 +46,9 @@ body{
   }
   .navv{
     background-color: black;
-    color: white;
-
   }
   .navbar-brand{
-    color:white;
+    color:rgb(255, 255, 255);
     transition: 0.5s;
     font-family: "Rasa", serif;
     font-size: 25px;
@@ -135,6 +133,18 @@ opacity: 100%;
   border-color: #503b3b;
   animation: ease-in-out;
   opacity: 4;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link:focus {
+  color: red;
 }
 
 /* footer */
