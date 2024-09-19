@@ -117,8 +117,15 @@ opacity: 100%;
   text-decoration-skip-ink: none;
   text-decoration-color: #cc0033;
   text-decoration-thickness:3px;
-
+  transition: 0.5s;
 }
+.title-heading:hover{
+  opacity: 100%;
+  box-shadow: 0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+  transition: 0.5s;
+}
+
+
 .description {
   color: #ffffff;
   font-family: "Rasa", serif;
